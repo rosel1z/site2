@@ -1,0 +1,22 @@
+%dis-space {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+.block_photo_one{
+    @extend %dis-space;
+    height: 250px;
+   }
+
+   .block_photo_two{
+    padding-top: 40px;
+    @extend %dis-space;
+    height: 240px;
+   }
+
+   .block_photo_three {
+    padding-top: 40px;
+    @extend %dis-space;
+    height: 260px;
+   }

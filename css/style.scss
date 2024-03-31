@@ -1,0 +1,48 @@
+$font-stack: Involve;
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @import "header.scss";
+
+   .title_first {
+    font: 100% $font-stack;
+    font-size: 80px;
+    text-align: center;
+   }
+
+   @import "block_photos_easy.scss";
+
+   .block_text {
+    font: 100% $font-stack;
+    font-size: 50px;
+   }
+
+   @import "block_difficult.scss";
+
+   .text_right {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 80px;
+    margin-top: -120px;
+   }
+
+.foot_text {
+    font: 100% $font-stack;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Involve"; 
+    src: url("../font/Involve-Regular.ttf") format("truetype"); 
+  } 
+
+  @media only screen and (min-width: 1441px) and (max-width: 2560px) {
+  
+
+
+}

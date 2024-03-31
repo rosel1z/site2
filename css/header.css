@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_menu {
+  font-family: Involve;
+  font-size: 35px;
+}
+
+.line {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}/*# sourceMappingURL=header.css.map */

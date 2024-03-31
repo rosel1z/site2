@@ -1,0 +1,114 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_menu {
+  font: 100% Involve;
+  font-size: 35px;
+}
+
+.line {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.title_first {
+  font: 100% Involve;
+  font-size: 80px;
+  text-align: center;
+}
+
+.block_photo_three, .block_photo_two, .block_photo_one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block_photo_one {
+  height: 250px;
+}
+
+.block_photo_two {
+  padding-top: 40px;
+  height: 240px;
+}
+
+.block_photo_three {
+  padding-top: 40px;
+  height: 260px;
+}
+
+.block_text {
+  font: 100% Involve;
+  font-size: 50px;
+}
+
+.photos {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.one_photo, .two_photo {
+  height: 460px;
+}
+
+.three_photo {
+  height: 933px;
+  width: 570px;
+}
+
+.item_item_2 {
+  grid-column-start: 1;
+}
+
+.item_item_3 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.photos_two {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.item_item_two {
+  font: 100% Involve;
+  text-align: center;
+  font-size: 160px;
+}
+
+.item_item_four {
+  grid-column: 2/3;
+}
+
+.two_photos {
+  height: 300px;
+}
+
+.one_photos {
+  height: 230px;
+}
+
+.text_right {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 80px;
+  margin-top: -120px;
+}
+
+.foot_text {
+  font: 100% Involve;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Involve";
+  src: url("../font/Involve-Regular.ttf") format("truetype");
+}/*# sourceMappingURL=style.css.map */
